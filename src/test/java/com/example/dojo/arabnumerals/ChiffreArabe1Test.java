@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * probleme : https://codingdojo.org/kata/RomanNumerals/
  * wikipedia : https://en.wikipedia.org/wiki/Roman_numerals
  */
-public class ChiffreArabeTest {
+public class ChiffreArabe1Test {
 
 	@Test
 	public void shouldReturnEmptyFor0() {

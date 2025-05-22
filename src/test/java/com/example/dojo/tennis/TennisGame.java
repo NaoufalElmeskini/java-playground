@@ -10,7 +10,7 @@ import static com.example.dojo.tennis.Player.PLAYER2;
 public class TennisGame {
 	@Getter
 	private Map<Player, String> score = new HashMap();
-	public final LinkedList<String> pointList = new LinkedList<>(
+	public final List<String> pointList = new LinkedList<>(
 			List.of("love", "15", "30", "40", "DEUCE", "ADVANTAGE"));
 	private Player winner;
 
@@ -62,7 +62,7 @@ public class TennisGame {
 	/**
 	 *
 	 * @param initialScore
-	 * ex : "love love"
+	 * ex : "love love", "15 love"...
 	 */
 	public void setScore(String initialScore) {
 		String score1 = initialScore.split(" ")[0];
