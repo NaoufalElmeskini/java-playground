@@ -45,5 +45,23 @@ public class SuperMarketTest {
 				.isEqualTo(0.0);
 	}
 
+	@Test
+	public void testCartWithRice() {
+		List cart = List.of(Product.getRice(1));
+		assertThat(SuperMarket.calculateReceipt(cart))
+				.isEqualTo(2.49);
+	}
+
+	@Test
+	public void testCartWithApples() {
+		List cart = List.of(Product.getApples(1));
+		assertThat(SuperMarket.calculateReceipt(cart))
+				.isEqualTo(1.99);
+	}
+
+
+
+
+
 
 }
