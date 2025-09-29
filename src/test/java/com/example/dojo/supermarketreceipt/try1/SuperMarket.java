@@ -1,4 +1,4 @@
-package com.example.dojo.supermarketreceipt;
+package com.example.dojo.supermarketreceipt.try1;
 
 import java.util.List;
 
