@@ -1,4 +1,4 @@
-package com.example.dojo.arabnumerals;
+package com.example.dojo.arabnumerals.try1;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
